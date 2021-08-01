@@ -1,7 +1,7 @@
 import React from "react";
 import Menuicon from "../Menuicon";
 
-const Header = (setcategory) => {
+const Header = ({ setcategory }) => {
   return (
     <div>
       <div className="inshorts-header">
@@ -14,8 +14,6 @@ const Header = (setcategory) => {
           height="80%"
           alt="inshorts-logo"
         />
-      </div>
-      <div>
         <a
           className="github-icon"
           href="https://github.com/jatiinyadav/Inshorts-clone-ReactJs"
@@ -30,7 +28,7 @@ const Header = (setcategory) => {
               height: "2rem",
               width: "2rem",
               padding: "3px",
-              marginTop: "2rem",
+              marginTop: "1.3rem",
               background: "wheat",
               cursor: "pointer",
             }}

@@ -22,7 +22,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #222222;
 }
 
 img {
@@ -43,7 +43,7 @@ img {
 }
 
 .app-content {
-  width: 65%;
+  width: 60%;
   max-width: 100rem;
   margin: 0 auto;
   font-size: 1rem;
@@ -69,12 +69,6 @@ img {
 
 .download-text img {
   padding-top: 6px;
-}
-
-@media (max-width: 995px) {
-  .download-text {
-    display: none;
-  }
 }
 
 /* NEWS CARD CSS */
@@ -138,7 +132,25 @@ img {
   color: #44444d;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 900px) and (max-width: 1250px) {
+  .app-content {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .app-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 995px) {
+  .download-text {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
   .newsCard {
     flex-direction: column;
     width: 100%;
@@ -159,6 +171,9 @@ img {
   }
   .description {
     font-size: 12px;
+  }
+  .newsText {
+    padding: 0 10px 0 10px;
   }
 }
 
