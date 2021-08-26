@@ -16,7 +16,7 @@ function App() {
       );
       setnewsArray(getResponse.data.articles);
     } catch (error) {
-      console.log(error);
+      alert(error);
     }
   });
 
