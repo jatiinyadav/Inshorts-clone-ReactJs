@@ -148,6 +148,9 @@ img {
   .download-text {
     display: none;
   }
+  .newsCard {
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 799px) {
